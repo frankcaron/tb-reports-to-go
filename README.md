@@ -1,7 +1,7 @@
 
 # Frank Caron
 
-TouchBistro "Reports To Go" is a simple iPhone that embeds TouchBistro's [cloud reporting portal](https://cloud.touchbistro.com/) into a handy little companion app. 
+"Reports To Go" is a simple iPhone app that embeds TouchBistro's [cloud reporting portal](https://cloud.touchbistro.com/) into a handy portable companion for accessing your restaurant's reports when you're on the go.
 
 The app implements a simple web view and persists cookies across app states to streamline the log in process.
 
