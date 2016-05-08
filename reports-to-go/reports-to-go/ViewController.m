@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AppDelegate.h"
+@import SafariServices;
 
 @interface ViewController ()
 
@@ -19,16 +19,19 @@
 {
     [super viewDidLoad];
     
+    // Web View
     //Size and lock the web view
     self.webView.frame=self.view.bounds;
     self.webView.scalesPageToFit = YES;
     
     // Load the url into the webview
     NSURL *url = [NSURL URLWithString:@"https://cloud.touchbistro.com"];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
-    // Save cookies
-    [[[UIApplication sharedApplication] delegate] performSelector:@selector(saveCookies)];
+    // Load the web view
+    [self.webView loadRequest:request];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,5 +44,7 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
+
+
 
 @end

@@ -15,7 +15,6 @@
 		22AA840C1CDF6A2A0036BF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AA840B1CDF6A2A0036BF27 /* Assets.xcassets */; };
 		22AA841A1CDF6A2A0036BF27 /* reports_to_goTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA84191CDF6A2A0036BF27 /* reports_to_goTests.m */; };
 		22AA84251CDF6A2A0036BF27 /* reports_to_goUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA84241CDF6A2A0036BF27 /* reports_to_goUITests.m */; };
-		22ABAD7A1CDFD34A009FF91F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		22AA84201CDF6A2A0036BF27 /* reports-to-goUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reports-to-goUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AA84241CDF6A2A0036BF27 /* reports_to_goUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reports_to_goUITests.m; sourceTree = "<group>"; };
 		22AA84261CDF6A2A0036BF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				22AA84021CDF6A2A0036BF27 /* ViewController.h */,
 				22AA84031CDF6A2A0036BF27 /* ViewController.m */,
 				22AA84051CDF6A2A0036BF27 /* Main.storyboard */,
-				22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */,
 				22AA840B1CDF6A2A0036BF27 /* Assets.xcassets */,
 				22AA84101CDF6A2A0036BF27 /* Info.plist */,
 				22AA84081CDF6A2A0036BF27 /* reports_to_go.xcdatamodeld */,
@@ -247,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22AA840C1CDF6A2A0036BF27 /* Assets.xcassets in Resources */,
-				22ABAD7A1CDFD34A009FF91F /* Launch Screen.storyboard in Resources */,
 				22AA84071CDF6A2A0036BF27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -372,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -411,6 +409,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				INFOPLIST_FILE = "reports-to-go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tb.reports-to-go";
@@ -423,6 +423,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				INFOPLIST_FILE = "reports-to-go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tb.reports-to-go";
