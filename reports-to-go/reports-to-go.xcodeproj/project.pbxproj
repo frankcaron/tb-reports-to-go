@@ -13,9 +13,9 @@
 		22AA84071CDF6A2A0036BF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AA84051CDF6A2A0036BF27 /* Main.storyboard */; };
 		22AA840A1CDF6A2A0036BF27 /* reports_to_go.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22AA84081CDF6A2A0036BF27 /* reports_to_go.xcdatamodeld */; };
 		22AA840C1CDF6A2A0036BF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AA840B1CDF6A2A0036BF27 /* Assets.xcassets */; };
-		22AA840F1CDF6A2A0036BF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AA840D1CDF6A2A0036BF27 /* LaunchScreen.storyboard */; };
 		22AA841A1CDF6A2A0036BF27 /* reports_to_goTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA84191CDF6A2A0036BF27 /* reports_to_goTests.m */; };
 		22AA84251CDF6A2A0036BF27 /* reports_to_goUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA84241CDF6A2A0036BF27 /* reports_to_goUITests.m */; };
+		22ABAD7A1CDFD34A009FF91F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		22AA84061CDF6A2A0036BF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22AA84091CDF6A2A0036BF27 /* reports_to_go.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reports_to_go.xcdatamodel; sourceTree = "<group>"; };
 		22AA840B1CDF6A2A0036BF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22AA840E1CDF6A2A0036BF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22AA84101CDF6A2A0036BF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AA84151CDF6A2A0036BF27 /* reports-to-goTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reports-to-goTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AA84191CDF6A2A0036BF27 /* reports_to_goTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reports_to_goTests.m; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		22AA84201CDF6A2A0036BF27 /* reports-to-goUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reports-to-goUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AA84241CDF6A2A0036BF27 /* reports_to_goUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reports_to_goUITests.m; sourceTree = "<group>"; };
 		22AA84261CDF6A2A0036BF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				22AA84021CDF6A2A0036BF27 /* ViewController.h */,
 				22AA84031CDF6A2A0036BF27 /* ViewController.m */,
 				22AA84051CDF6A2A0036BF27 /* Main.storyboard */,
+				22ABAD791CDFD34A009FF91F /* Launch Screen.storyboard */,
 				22AA840B1CDF6A2A0036BF27 /* Assets.xcassets */,
-				22AA840D1CDF6A2A0036BF27 /* LaunchScreen.storyboard */,
 				22AA84101CDF6A2A0036BF27 /* Info.plist */,
 				22AA84081CDF6A2A0036BF27 /* reports_to_go.xcdatamodeld */,
 				22AA83FC1CDF6A2A0036BF27 /* Supporting Files */,
@@ -246,8 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AA840F1CDF6A2A0036BF27 /* LaunchScreen.storyboard in Resources */,
 				22AA840C1CDF6A2A0036BF27 /* Assets.xcassets in Resources */,
+				22ABAD7A1CDFD34A009FF91F /* Launch Screen.storyboard in Resources */,
 				22AA84071CDF6A2A0036BF27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,14 +318,6 @@
 				22AA84061CDF6A2A0036BF27 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		22AA840D1CDF6A2A0036BF27 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22AA840E1CDF6A2A0036BF27 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tb.reports-to-go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tb.reports-to-go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +496,7 @@
 				22AA842B1CDF6A2A0036BF27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AA842C1CDF6A2A0036BF27 /* Build configuration list for PBXNativeTarget "reports-to-goTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +505,7 @@
 				22AA842E1CDF6A2A0036BF27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AA842F1CDF6A2A0036BF27 /* Build configuration list for PBXNativeTarget "reports-to-goUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +514,7 @@
 				22AA84311CDF6A2A0036BF27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

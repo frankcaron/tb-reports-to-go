@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Hide status
+    application.statusBarHidden = YES;
+    
+    // Load cookies
+    [self loadCookies];
+    
+    // Return
     return YES;
 }
 
@@ -121,6 +129,25 @@
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         }
+    }
+}
+
+- (void)saveCookies
+{
+    NSData         *cookiesData = [NSKeyedArchiver archivedDataWithRootObject: [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]];
+    NSUserDefaults *defaults    = [NSUserDefaults standardUserDefaults];
+    [defaults setObject: cookiesData forKey: @"cookies"];
+    [defaults synchronize];
+}
+
+- (void)loadCookies
+{
+    NSArray             *cookies       = [NSKeyedUnarchiver unarchiveObjectWithData: [[NSUserDefaults standardUserDefaults] objectForKey: @"cookies"]];
+    NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    
+    for (NSHTTPCookie *cookie in cookies)
+    {
+        [cookieStorage setCookie: cookie];
     }
 }
 
