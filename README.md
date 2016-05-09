@@ -7,7 +7,6 @@ The app implements a simple web view and persists cookies across app states to s
 
 ## Screenshots Or It Didn't Happen
 
-![alt text](http://i.imgur.com/BhiLduM.png "App Icon")
 ![alt text](http://i.imgur.com/bwLOTVH.png "Main App (iPad)")
 
 ## Bugs and Issues
