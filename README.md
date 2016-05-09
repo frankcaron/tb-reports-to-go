@@ -5,6 +5,11 @@
 
 The app implements a simple web view and persists cookies across app states to streamline the log in process.
 
+## Screenshots Or It Didn't Happen
+
+![alt text](http://i.imgur.com/BhiLduM.png "App Icon")
+![alt text](http://i.imgur.com/bwLOTVH.png "Main App (iPad)")
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? Open an issue against the repo and I'll fix it.
