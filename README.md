@@ -1,5 +1,5 @@
 
-# TouchBistro "Reports To Go"
+# Reports To Go
 
 "Reports To Go" is a simple iPhone app that embeds TouchBistro's [cloud reporting portal](https://cloud.touchbistro.com/) into a handy portable companion for accessing your restaurant's reports when you're on the go.
 
