@@ -4,7 +4,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "TB_Icon_Gold_Reports_Launch.png",
+      "filename" : "iPhone Portrait Splash-1.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -13,7 +13,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "TB_Icon_Gold_Reports_Launch_Landscape.png",
+      "filename" : "iPhone Landscape Splash.png",
       "minimum-system-version" : "8.0",
       "orientation" : "landscape",
       "scale" : "3x"
@@ -22,7 +22,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "TB_Icon_Gold_Reports_Launch_750.png",
+      "filename" : "iPhone Portrait Splash 4_7.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -38,7 +38,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "TB_Icon_Gold_Reports_Launch_640.png",
+      "filename" : "iPhone Portrait Splash Retina 4.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -46,7 +46,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "TB_Icon_Gold_Reports_Launch_iPad_portrait copy.png",
+      "filename" : "iPad Portrait Splash@0.5x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -54,7 +54,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "TB_Icon_Gold_Reports_Launch_iPad-1.png",
+      "filename" : "iPad Landscape Splash@0.5x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -62,7 +62,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "TB_Icon_Gold_Reports_Launch_iPad_portrait.png",
+      "filename" : "iPad Portrait Splash.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -70,7 +70,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "TB_Icon_Gold_Reports_Launch_iPad.png",
+      "filename" : "iPad Landscape Splash.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
